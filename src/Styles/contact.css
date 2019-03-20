@@ -1,0 +1,195 @@
+html { 
+    overflow-y: hidden; 
+}
+.left{
+    margin-top: 70px;
+    margin-left:-10px;
+}
+ .get-in-touch{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-left: 50px;
+}
+#get-in-touch-header{
+    font-weight: 700;
+    font-size: 45px;
+    letter-spacing: 1.5px;
+}
+#contact-p{
+    z-index: 2;
+    position: relative;
+    background: transparent;
+    margin-top: -25px;
+}
+#contact-p-2{
+    z-index: 2;
+    position: relative;
+    margin-top: -18px;
+}
+.contact-paragraph{
+    margin-top: 15px;
+    letter-spacing: 1.6;
+    font-size:20px;
+    margin-bottom: 15px;
+    margin-top: -20px;
+}
+form{
+    margin-left: 40px;
+}
+.full-name,.phone-number,.text,.email-address{
+    padding-bottom: 10px;
+    
+}
+.input{
+    height: 40px;
+    width: 400px;
+    border-radius: 25px;
+    border: 1px solid white;
+    background-color: white;
+    outline: none;
+}
+.text{
+    margin-left: 3px;
+}
+#message{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 15px;
+    padding-left: 20px; 
+    padding-top: 10px;
+    width: 372px;
+    height: 220px;
+    resize: none;
+    outline: none;
+}
+#radio{
+    height: 25px;
+    width: 25px;
+}
+#send-copy{
+    padding-left:10px;
+    color: white;
+    margin-top: 4px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    padding-top: 2.5px;    
+}
+.submmit-button{
+    margin-left: 295px;
+    position: relative;
+    margin-top:-35px; 
+    padding-bottom: 5px;
+}
+#submit{
+    background: url(../images/contact/send.png) no-repeat scroll 22px 11px; 
+    background-size: 20px;
+    padding-left: 30px;
+    height: 40px;
+    color: #707070;
+    width: 110px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: -8px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+    filter: brightness(100%)
+}
+#submit:hover{
+    filter: brightness(90%)
+}
+#full_name {
+    background: url(../images/contact/name.png) no-repeat scroll 20px 13px; 
+    background-size: 22px;
+    background-color: white;
+    padding-left:55px;
+    width: 345px !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size:15px;
+}
+#phone_number{
+    background: url(../images/contact/phone.png) no-repeat scroll 22px 11px; 
+    background-size: 20px;
+    background-color: white;
+    padding-left:55px;
+    width: 345px !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size:15px;
+}
+#email-ad{
+    background: url(../images/contact/msg.png) no-repeat scroll 23px 13px; 
+    background-size: 20px;
+    background-color: white;
+    padding-left:55px;
+    width: 345px !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size:15px;
+}
+
+.right{
+    position: absolute;
+    float: right;
+    margin-top: -530px;
+    margin-left: 520px;
+
+}
+#smoke-photo{
+    filter: brightness(70%);
+    box-shadow: 0px 5px 20px black;
+    border-radius: 7px;
+    
+}
+#follow-social{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;;
+    margin-top: 25px;
+}
+.social-icon{
+    position: absolute;
+    margin-top: -27px;
+}
+#facebook{
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    filter: brightness(90%)
+}
+#linked{
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    filter: brightness(90%)
+}
+#insta{
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    filter: brightness(90%)
+}
+#git{
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    filter: brightness(90%)
+}
+#facebook:hover{
+    filter: brightness(100%)
+}
+#linked:hover{
+    filter: brightness(100%)
+}
+#insta:hover{
+    filter: brightness(100%)
+}
+#git:hover{
+    filter: brightness(100%)
+} 

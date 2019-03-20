@@ -1,0 +1,767 @@
+#about{
+    background-color:#1F123A;
+  }
+#passion{
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, rgb(231, 227, 227), #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, rgb(231, 227, 227), #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  }
+  .box {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 50px;
+    height: 657px;
+   
+  
+  }
+ #about,#passion{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+#about{
+  font-size:30px;
+  color: white;
+  position: absolute;
+}
+
+#passion{
+  font-size: 20px;
+  color:black;
+  float: right;
+}
+#passion h2{
+  float: right;
+}
+#about-header,#passion-header{
+  padding-top: 40px;
+  letter-spacing: 3px;
+  
+}
+#about-header{
+  text-align: center;
+}
+#passion-header{
+  padding-right: 40px;
+  position:relative;
+}
+#photo {
+  border-radius: 50%;
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#who-is-this{
+  font-size: 20px !important ;
+  text-align: center;
+  margin-top: 15px;
+}
+.about-me-paragraph{
+  font-size: 16px;
+  margin-top: 15px;
+  letter-spacing:1.5;
+  line-height: 1.5;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: justify;
+  text-justify:inter-word;
+  font-weight: 400;
+}
+#music-paragraph{
+  font-size: 15px;
+  letter-spacing:0.5;
+  margin-top: 10px;
+  font-weight: 500;
+  text-align: justify;
+  text-justify:inter-word;
+}
+.technology{
+  margin-top: 100px;
+  text-align: justify;
+  text-justify: inter-word;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+#technology-header{
+  font-size:20px;
+}
+
+.technology-paragraph{
+  font-size: 15px;
+  letter-spacing:0.5;
+  margin-top: 10px;
+  font-weight: 500;
+}
+#skill{
+  font-size: 40px;
+  margin-left: 60px;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif; 
+  margin-top: -270px;
+}
+#bar{
+    height: 4px;
+    width: 100px;
+    margin-left: 64px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    margin-top:-25px;
+}
+.front-end,.prototype,.apps,.cms{
+  position: relative;
+  margin-top: 30px;
+}
+.cloud{
+  margin-top: -20px;
+}
+.back-end{
+  margin-top:200px;
+  position: relative;
+}
+#front-end,#back-end,#prototype,#cloud,#apps,#cms{
+  font-size: 20px;
+  margin-left: 60px;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+#prototype{
+  position: relative;
+  margin-top:130px;
+}
+
+.flex-container{
+  display: flex;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+  letter-spacing: 1.3px;
+}
+.skillSet{
+  margin-top: 230px;
+}
+.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+  width: 250px;
+  padding-right: 250px;
+}
+.flex-container > div > img {
+  height: 50px;
+  width: 50px;
+}
+.container{
+  height: 5px;
+  border-radius: 50px;
+  width: 200px;
+  position: absolute;
+  margin-left: 55px;
+  margin-top: 25px;
+  background-color: #ddd;
+}
+.html{
+  background-color: #4CAF50;
+  height:5px;
+  width: 90%;
+  animation: html5 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: html5 2s ease-;
+  -webkit-animation: html5 2s ease-out;
+}
+.css{
+    background-color: #4CAF50;
+    height:5px;
+    width: 85%;
+    animation:  css 2s ease;
+    margin-left: 0px;
+    border-radius: 20px;
+    -moz-animation: css 2s ease-;
+    -webkit-animation: css 2s ease-out;
+}
+.js{
+  background-color: #4CAF50;
+  height:5px;
+  width: 70%;
+  animation: js 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: js 2s ease-;
+  -webkit-animation: js 2s ease-out;
+}
+.es6{
+  background-color: #4CAF50;
+  height:5px;
+  width: 65%;
+  animation: es6 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: es6 2s ease-;
+  -webkit-animation: es6 2s ease-out;
+}
+.react{
+  background-color: #4CAF50;
+  height:5px;
+  width: 60%;
+  animation: react 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: react 2s ease-;
+  -webkit-animation: react 2s ease-out;
+}
+.angular{
+  background-color: #4CAF50;
+  height:5px;
+  width: 60%;
+  animation: angular 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: angular 2s ease-;
+  -webkit-animation: angular 2s ease-out;
+}
+.bootstrap{
+  background-color: #4CAF50;
+  height:5px;
+  width: 70%;
+  animation: bootstrap 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: bootstrap 2s ease-;
+  -webkit-animation: bootstrap 2s ease-out;
+}
+.gsap{
+  background-color: #4CAF50;
+  height:5px;
+  width: 50%;
+  animation: gsap 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: gsap 2s ease-;
+  -webkit-animation: gsap 2s ease-out;
+}
+.jquery{
+  background-color: #4CAF50;
+  height:5px;
+  width: 70%;
+  animation: jquery 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: jquery 2s ease-;
+  -webkit-animation: jquery 2s ease-out;
+}
+.materialize{
+  background-color: #4CAF50;
+  height:5px;
+  width: 85%;
+  animation: materialize 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: materialize 2s ease-;
+  -webkit-animation: materialize 2s ease-out;
+}
+#ajax{
+  height: 30px !important;
+} 
+.ajax{
+  background-color: #4CAF50;
+  height:5px;
+  width: 90%;
+  animation: threejs 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: ajax 2s ease-;
+  -webkit-animation: ajax 2s ease-out;
+}
+.threejs{
+  background-color: #4CAF50;
+  height:5px;
+  width: 30%;
+  animation: threejs 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: threejs 2s ease-;
+  -webkit-animation: threejs 2s ease-out;
+}
+.responsive{
+  background-color: #4CAF50;
+  height:5px;
+  width: 50%;
+  animation: responsive 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: responsive 2s ease-;
+  -webkit-animation: responsive 2s ease-out;
+}
+
+/* back-end  */
+.back-end{
+  position: absolute;
+}
+#back-end{
+  margin-top:-270px; 
+}
+.django{
+  background-color: #4CAF50;
+  height:5px;
+  width: 55%;
+  animation: django 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: django 2s ease-;
+  -webkit-animation: django 2s ease-out;
+}
+.node{
+  background-color: #4CAF50;
+  height:5px;
+  width: 60%;
+  animation: node 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: node 2s ease-;
+  -webkit-animation: node 2s ease-out;      
+}
+.api{
+  background-color: #4CAF50;
+  height:5px;
+  width: 35%;
+  animation: api 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: api 2s ease-;
+  -webkit-animation: api 2s ease-out;      
+}
+.mongo{
+  background-color: #4CAF50;
+  height:5px;
+  width: 50%;
+  animation: mongo 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: mongo 2s ease-;
+  -webkit-animation: mongo 2s ease-out;      
+}
+.mysql{
+  background-color: #4CAF50;
+  height:5px;
+  width: 60%;
+  animation: mysql 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: mysql 2s ease-;
+  -webkit-animation: mysql 2s ease-out;      
+}
+#logoskill{
+  margin-top: 50px;
+  position: absolute;
+}
+.ae{
+  background-color: #4CAF50;
+  height:5px;
+  width: 20%;
+  animation: ae 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: ae 2s ease-;
+  -webkit-animation: ae 2s ease-out;      
+}
+.ps{
+  background-color: #4CAF50;
+  height:5px;
+  width: 50%;
+  animation: ps 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: ps 2s ease-;
+  -webkit-animation: ps 2s ease-out;      
+}
+.ai{
+  background-color: #4CAF50;
+  height:5px;
+  width: 50%;
+  animation: ai 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: ai 2s ease-out;
+  -webkit-animation: ai 2s ease-out;      
+}
+.xd{
+  background-color: #4CAF50;
+  height:5px;
+  width: 90%;
+  animation: ai 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: xd 2s ease-;
+  -webkit-animation: xd 2s ease-out;      
+}
+.br{
+  background-color: #4CAF50;
+  height:5px;
+  width: 15%;
+  animation: ai 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: br 2s ease-;
+  -webkit-animation: br 2s ease-out;      
+}
+.fire{
+  background-color: #4CAF50;
+  height:5px;
+  width: 35%;
+  animation: fire 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: fire 2s ease-;
+  -webkit-animation: fire 2s ease-out;      
+}
+.aws{
+  background-color: #4CAF50;
+  height:5px;
+  width: 20%;
+  animation: fire 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: fire 2s ease-;
+  -webkit-animation: fire 2s ease-out;      
+}
+.google{
+  background-color: #4CAF50;
+  height:5px;
+  width: 20%;
+  animation: google 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: google 2s ease-;
+  -webkit-animation: google 2s ease-out;      
+}
+.mobile{
+  background-color: #4CAF50;
+  height:5px;
+  width: 80%;
+  animation: mobile 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: mobile 2s ease-;
+  -webkit-animation: mobile 2s ease-out;      
+}
+.redux{
+  background-color: #4CAF50;
+  height:5px;
+  width: 40%;
+  animation: redux 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: redux 2s ease-;
+  -webkit-animation: redux 2s ease-out;      
+}
+.ionic{
+  background-color: #4CAF50;
+  height:5px;
+  width: 50%;
+  animation: ionic 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: ionic 2s ease-;
+  -webkit-animation: ionic 2s ease-out;      
+}
+.wp{
+  background-color: #4CAF50;
+  height:5px;
+  width: 85%;
+  animation: wp 2s ease;
+  margin-left: 0px;
+  border-radius: 20px;
+  -moz-animation: wp 2s ease-;
+  -webkit-animation: wp 2s ease-out;      
+}
+@keyframes wp {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 85%;
+  };
+}
+@keyframes flutter {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 30%;
+  };
+}
+@keyframes ionic {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 50%;
+  };
+}
+@keyframes redux {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 40%;
+  };
+}
+@keyframes mobile {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 80%;
+  };
+}
+@keyframes aws {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 20%;
+  };
+}
+@keyframes google {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 20%;
+  };
+}
+@keyframes fire {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 35%;
+  };
+}
+@keyframes br {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 15%;
+  };
+}
+@keyframes xd {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 90%;
+  };
+}
+@keyframes ai {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 50%;
+  };
+}
+@keyframes ps {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 50%;
+  };
+}
+@keyframes ae {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 20%;
+  };
+}
+@keyframes mysql {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 60%;
+  };
+}
+@keyframes mongo {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 50%;
+  };
+}
+@keyframes api {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 35%;
+  };
+}
+@keyframes node {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 60%;
+  };
+}
+@keyframes rails {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 50%;
+  };
+}
+@keyframes django {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 55%;
+  };
+}
+@keyframes html5 {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 90%;
+  };
+}
+@keyframes css {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 85%;
+  };
+}
+@keyframes js {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 70%;
+  };
+}
+@keyframes es6 {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 65%;
+  };
+}
+@keyframes react {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 60%;
+  };
+}
+@keyframes angular {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 60%;
+  };
+}
+@keyframes bootstrap {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 70%;
+  };
+}
+@keyframes gsap {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 50%;
+  };
+}
+@keyframes jquery {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 70%;
+  };
+}
+@keyframes materialize {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 85%;
+  };
+}
+@keyframes threejs {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 30%;
+  };
+}
+@keyframes ajax {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 90%;
+  };
+}
+@keyframes responsive {
+  0% {
+      width: 0px;
+  }
+
+  100% {
+      width: 100%;
+  };
+}
